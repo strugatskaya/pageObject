@@ -51,7 +51,6 @@ class MoneyTransferTest {
         assertEquals(secondBalanceBefore + refilmentSum, cards.getSecondCardBalance());
     }
 
-    @Disabled
     @Test
     void shouldTransferMoneyBetweenOwnCardsV3() {
         var cardsInfo = DataHelper.getCardsInfo();
